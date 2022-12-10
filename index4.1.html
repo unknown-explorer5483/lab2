@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+
+<head>
+    <title>table using divs</title>
+    <meta charset="UTF-8">
+    <style>
+        .div-table {
+            display: table;
+            border: 1px solid #003399;
+        }
+
+        .div-table-caption {
+            display: table-caption;
+            background: #009999;
+            text-align: center;
+        }
+
+        .div-table-row {
+            display: table-row;
+        }
+
+        .div-table-col {
+            display: table-cell;
+            padding: 5px;
+            border: 1px solid #003399;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div-table">
+        <div class="div-table-caption">Вторник</div>
+        <div class="div-table-row">
+            <div class="div-table-col">Время</div>
+            <div class="div-table-col">ЧС</div>
+            <div class="div-table-col">ЗН</div>
+        </div>
+        <div class="div-table-row">
+            <div class="div-table-col">8:30-11:50</div>
+            <div class="div-table-col">Электротехника</div>
+            <div class="div-table-col">ЯИП (Лабораторная)</div>
+        </div>
+        <div class="div-table-row">
+            <div class="div-table-col">12:00-13:35</div>
+            <div class="div-table-col">ЯИП (Лекции)</div>
+            <div class="div-table-col">ЯИП (Лекции)</div>
+        </div>
+        <div class="div-table-row">
+            <div class="div-table-col">13:50-15:25</div>
+            <div class="div-table-col">Базы данных</div>
+            <div class="div-table-col">Базы данных</div>
+        </div>
+    </div>
+</body>
+</html>
